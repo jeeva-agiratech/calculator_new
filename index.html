@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <center><b>Its Time To Do Some Math</b></center>
+            <section class="header">
+                <h1> Calculevity by Jeeva</h1>
+                <input type="text" id="display">
+            </section>
+            <section class="buttons">
+                <button onclick="getNumber(1)">1</button>
+                <button onclick="getNumber(2)">2</button>
+                <button onclick="getNumber(3)">3</button>
+                <button onclick="getOperator('+')">+</button>
+
+                <button onclick="getNumber(4)">4</button>
+				<button onclick="getNumber(5)">5</button>
+				<button onclick="getNumber(6)">6</button>
+				<button onclick="getOperator('-')">-</button>
+
+				<button onclick="getNumber(7)">7</button>
+				<button onclick="getNumber(8)">8</button>
+				<button onclick="getNumber(9)">9</button>
+				<button onclick="getOperator('*')">*</button>
+
+				<button onclick="clearDisplay()">ce</button>
+				<button onclick="getNumber(0)">0</button>
+
+				<button onclick="calculateResult()">=</button>
+				<button onclick="getOperator('/')">/</button>
+            </section>
+            <script src="script.js"></script>
+
+        </div>
+    </body>
+
+</html>
